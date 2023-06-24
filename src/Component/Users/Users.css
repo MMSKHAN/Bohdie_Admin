@@ -3,7 +3,8 @@
     left: 18rem;
     width: 77%;
     padding-top: 2rem;
-}.UsersHeader{
+}
+.UsersHeader{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -72,4 +73,71 @@ color: #292D32;
 }.UserHeaderChild5{
     position: relative;
     left: 76px;
+}.UserChild3{
+    width: fit-content;
+}
+@media screen and (max-width:1200px) {
+    .Users{
+        position: static;
+       
+        width: 100%;
+        padding-top: 2rem;
+    }.UsersHeader{
+        text-align: center;
+        
+    }
+    
+    .UserHeader{
+        font-size: 1rem;
+        width: 1110px;
+        /* background-color: aquamarine; */
+        gap: 96px;
+        /* overflow-x: scroll; */
+    }.UserHeaderChild1{
+        width: fit-content;
+    }.UserHeaderChild1 span,.UserChild1 span{
+        display: flex;
+        width: 90px;
+        justify-content: center;
+        align-items: center;
+    }
+    .UserHeaderChild2{
+        position: relative;
+        width: 21vw;
+
+        text-align: justify;
+    }.UserHeaderChild2 span, .UserChild2 span {
+        display: flex;
+        width: 100px;
+        justify-content: center;
+    }
+    
+    .UserHeaderChild3{
+        position: relative;
+        right: 2rem;
+    }.UserChild3 span {
+        display: flex;
+        width: 123px;
+    }
+    .UserHeaderChild4{
+        position: relative;
+        left:2rem;
+    }.UserHeaderChild5{
+        position: relative;
+        left: 5rem;
+    }.UserBody{
+        width: 100%;
+        /* overflow-x: scroll; */
+        gap: 96px;
+    }.UserChild6{
+        position: relative;
+        right: 1.5rem;
+    }
+    .UserChild3{
+   width: fit-content;
+    }
+    .Container2{
+        overflow-x: scroll;
+    }
+
 }

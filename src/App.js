@@ -8,11 +8,13 @@ import Challanges from './Component/Challanges/Challanges';
 import Dashbord from './Component/Dashboart/Dashbord';
 import TopNav from './Component/Navigation/TopNav';
 import Add from './Component/Addnew/Add';
+import "./App.css"
 function App() {
   return (
     <BrowserRouter>
-    < Nav />
-    <TopNav/>
+   <div className="classes">
+     < Nav />
+    <TopNav/></div>
     <Routes>
      <Route exect path="/"element={< Dashbord />}/>
      <Route exect path="/Users"element={< Users />}/>

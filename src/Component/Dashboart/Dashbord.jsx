@@ -7,10 +7,10 @@ function Dashbord() {
   return (
     <>
     <div className="Dashboardmain">
-<div className="container">
-  <div className="row">
-    <div className="col-sm-6"> <p className='Dash_Header' >Add main Categories & pic</p> </div>
-    <div className="col-sm-6"> <p className='Dash_Hader_Add' > <Plus/>  <span>Add New</span> </p> </div>
+<div className="container-fluid">
+  <div className="rowdash">
+    <div className="rowDash1"> <p className='Dash_Header' >Add main Categories & pic</p> </div>
+    <div className="rowDash2"> <p className='Dash_Hader_Add' > <Plus/>  <span>Add New</span> </p> </div>
   </div>
   <DashPart1/>
   <DashboardPart2/>

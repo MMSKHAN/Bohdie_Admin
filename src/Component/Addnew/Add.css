@@ -121,4 +121,33 @@ padding-left: 130px;
 
 }.Hand_Chat_icons{
     font-size: 1.5rem;
+} @media screen and (max-width:1200px) {
+    .Add{
+        position: static;
+    
+    width: 100%;
+    padding-top: 2rem;
+    }.adminimged{
+        width: 100px;
+        height: 80px;
+    }.AddHeaderRow{
+        height: 50px;
+         }.AddHeader{
+            gap: 1rem;
+         }.Pic_video{
+            width: 100%;
+            padding-left: 1rem;
+            padding-right: 1rem;
+         }.Add_Video{
+            position: static;
+         }.feedimge{
+            padding-left: 1rem;
+            width: 100%;
+            height: 90%;
+         }.small{
+            padding-left: 1rem;
+         }.Feed_Footer{
+            padding-left: 1rem;
+            justify-content: space-between;
+         }
 }

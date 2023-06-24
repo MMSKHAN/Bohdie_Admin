@@ -6,8 +6,10 @@ function Users() {
    <>
    <div className="Users">
     <div className="container">
-<div className="row"><p className='UsersHeader' >potential applicants</p></div>
-<div className="UserHeader">
+
+  <p className='UsersHeader' >potential applicants</p>
+  <div className='Container2' >
+    <div className="UserHeader">
   <div className="UserHeaderChild1"> <input type="checkbox" name="check" id="1" />  <span className='Usersub' >Full Name</span></div>
   <div className="UserHeaderChild2"> <span>Apply Date</span></div>
   <div className="UserHeaderChild3"> <span>Cell</span> </div>
@@ -116,6 +118,7 @@ function Users() {
 </div>
 
 
+</div>
 
 
 

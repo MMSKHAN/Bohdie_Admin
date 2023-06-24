@@ -5,13 +5,13 @@ function TopNav() {
   return (
     <div className="DashContainer">
     <div className="container">
-    <div className="row">
-      <div className="col-sm-10">
+    <div className="rowTop">
+      <div className="row1">
         <div className="searchbox">
          <span> <Search/></span><span><input type="text"  placeholder='Search a transaction' /></span>
         </div>
          </div>
-      <div className="col-sm-2">
+      <div className="row2">
         <div className="adminbox">
         <div className="notification">
           <Bell/>

@@ -43,3 +43,35 @@
     position: relative;
     right: 49px;
 }
+@media screen and (max-width:1200px){
+    .UserHeader{
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+    }
+    .BdageHeaderChild2{
+        position: relative;
+        right:3.4rem;
+    }.BdageHeaderChild4{
+        right: 0rem;
+    }
+    .BdageHeaderChild3{
+        
+        position: relative;
+        right: 4rem;
+    
+    }.BdageHeaderChild5{
+        position: relative;
+        left: -2.9rem;
+    }.BdageHeaderChild6{
+        position: relative;
+        right: 3rem;
+    }.UserChild22{
+        /* padding-left: 36px; */
+    }.pusbtn{
+        width: 67px;
+    }.Badage{
+        width: 1200px ;
+    }
+    
+}
